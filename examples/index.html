@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <script src="typings.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="page-title">typings.js</div>
+        <div class="examples">
+            <div class="header">
+                <span class="heading">Usage:<br></span>
+                <span>- Just include the typings.js in your project.<br></span>
+                <span>- On the element - Add the class 'typings' & the attribute 'type = ["type item 1", "type item 2", ...]'</span>
+                <span class="title"><br>Configuring the elements:<br></span>
+                <span class="configurations">class="typings"</span>
+            </div>
+            <div class="forward">
+                <span class="heading">Forward Mode:<br></span>
+                <span>You can type through a list of text one way.</span>
+                <span class="title"><br>Configurations:<br></span>
+                <span class="configurations">type='[...]' mode="forward"</span>
+                <span class="title"><br>Example:</span>
+                <span class="typings" 
+                    type='[" errors b"," blunders "," oversigh"," mistakes, but its good to know that we can fix them!"]'
+                    mode="forward">We all make</span>
+            </div>
+            
+            <div class="continuous">
+                <span class="heading">Continuous Mode:<br></span>
+                <span>You can type through a list of text in circles.</span>
+                <span class="title"><br>Configurations:<br></span>
+                <span class="configurations">type='[...]' mode="continuous"</span>
+                <span class="title"><br>Example:</span>
+                <span class="typings" 
+                    type='[" red"," green"," blue"," black", " aquamarine", "gray", "yellow", "white"]'
+                    mode="continuous">Colors to choose from :</span>
+            </div>
+            
+            <div class="fast">
+                <span class="heading">Speed things up:<br></span>
+                <span>You can type really fast.</span>
+                <span class="title"><br>Configurations:<br></span>
+                <span class="configurations">type='[...]' forwardDelta="25" backwardDelta="25"</span>
+                <span class="title"><br>Example:</span>
+                <span class="typings" 
+                    type='[" really really fast!!", " like the superfast flash!!"]'
+                    mode="continuous" forwardDelta="25" backwardDelta="25">
+                    Sets see if you can beat me; I can type </span>
+            </div>
+            
+            <div class="slow">
+                <span class="heading">Slow them down:<br></span>
+                <span>You can type really slow as well.</span>
+                <span class="title"><br>Configurations:<br></span>
+                <span class="configurations">type='[...]' mode="forward" forwardDelta="200" backwardDelta="100"</span>
+                <span class="title"><br>Example:</span>
+                <span class="typings" 
+                    type='[" i used to type really slow!", " like really really slow!", " like slower than the snail!"]'
+                    mode="continuous" forwardDelta="200" backwardDelta="100">
+                    But this is how I typed 10 years ago - </span>
+            </div>
+        </div>
+    </body>
+</html>
